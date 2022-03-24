@@ -35,7 +35,7 @@ app.use(session({
     secret: SESS_SECRET,
     store: new RedisStore({ client: redisSessionClient }),
     resave: false,
-    name: 'guessle',
+    name: 'letterle',
     saveUninitialized: false
 }))
 
@@ -87,5 +87,5 @@ app.use(async (err, req, res, next) => {
 
 // here we go...
 app.listen(PORT, () => {
-    console.info(`Guessle app listening at http://localhost:${PORT}`)
+    console.info(`Letterle app listening at http://localhost:${PORT}`)
 })
