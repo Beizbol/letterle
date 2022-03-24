@@ -1,6 +1,6 @@
 # letterle
 
-This is a [Guessle](https://guessle.herokuapp.com) clone [Github](https://github.com/jakerella/guessle).
+This is a [Guessle](https://guessle.herokuapp.com) clone. View source: [Github](https://github.com/jakerella/guessle)
 
 ### What license is the code under?
 
