@@ -4,9 +4,9 @@ html(lang='en-US')
         meta(charset='UTF-8')
         meta(http-equiv='content-type', content='text/html; charset=utf-8')
 
-        title= 'Guessle ' + title
+        title= 'Letterle ' + title
 
-        meta(name='description', content='A word game based on Wordle')
+        meta(name='description', content='A clone of Wordle with a few tweaks.')
         meta(name='viewport', content='width=device-width, initial-scale=1')
 
         link(rel='stylesheet', href='/main.css')
@@ -18,7 +18,7 @@ html(lang='en-US')
                     li.help
                     li.options
             
-            h1 Guessle
+            h1 Letterle
 
         main#main-content
             if error
@@ -33,11 +33,11 @@ html(lang='en-US')
         footer
             p 
                 | A 
-                a(href='https://github.com/jakerella/guessle') Guessle
+                a(href='https://www.nytimes.com/games/wordle', target='_blank') Wordle
                 |  clone.
             p
                 | &copy; Jake Surrett 2022 | View source 
-                a(href='https://github.com/jakerella/guessle' target='_blank' title='View the Wordle Clone code on GitHub')
+                a(href='https://github.com/beizbol/letterle', target='_blank', title='View code on GitHub')
                     | GitHub
             p 
                 | View the game's 

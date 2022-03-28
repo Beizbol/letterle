@@ -97,10 +97,10 @@ header h1 a:link, header h1 a:hover, header h1 a:active, header h1 a:visited {
     background-color: #bbb;
 }
 .check-1 {
-    background-color: #cc5;
+    background-color: rgb(240, 240, 70);
 }
 .check-2 {
-    background-color: #9c9;
+    background-color: rgb(100, 240, 100);
 }
 
 

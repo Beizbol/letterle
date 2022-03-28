@@ -4,7 +4,7 @@ html(lang='en-US')
         meta(charset='UTF-8')
         meta(http-equiv='content-type', content='text/html; charset=utf-8')
 
-        title= 'Guessle ' + title
+        title= 'Letterle ' + title
 
         meta(name='description', content='A word game based on Wordle')
         meta(name='viewport', content='width=device-width, initial-scale=1')
@@ -14,7 +14,7 @@ html(lang='en-US')
     body
         header
             h1
-                a(href='/') Guessle
+                a(href='/') Letterle
 
         main#main-content
             if error
@@ -28,12 +28,12 @@ html(lang='en-US')
 
         footer
             p 
-                | Yes, it's a 
-                a(href='https://www.powerlanguage.co.uk/wordle/') Wordle
+                | A 
+                a(href='https://www.nytimes.com/games/wordle', target='_blank', title='View the original wordle') Wordle
                 |  clone.
             p
-                | &copy; Jordan Kasper 2021 | See this code on 
-                a(href='https://github.com/jakerella/guessle' target='_blank' title='View the Wordle Clone code on GitHub')
+                | &copy; Jake Surrett 2022 | View source 
+                a(href='https://github.com/beizbol/letterle', target='_blank', title='View code on GitHub')
                     | GitHub
             p 
                 a(href='/') Back to the game!
