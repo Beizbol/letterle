@@ -179,8 +179,12 @@ h2.sub-header {
     width: auto;
 }
 .game-options {
+    border-color: rgb(80, 80, 80);
+    background-color: rgb(200, 200, 200);
+}
+.dark-mode .game-options {
     border-color: #000;
-    background-color: #eee;
+    background-color: #444;
 }
 .game-options h2 {
     text-align: center;
@@ -218,7 +222,7 @@ h3 {
     width: 100%;
     margin: 1rem 0 2rem 0;
     padding: 0.3em;
-    background-color: #eee;
+    background-color: rgb(80, 200, 240);
     border: 1px solid #999;
     border-radius: 0.3rem;
     cursor: pointer;
@@ -297,10 +301,10 @@ h3 {
     margin-right: 1rem;
 }
 .letter-del {
-    background-color: #ddd;
+    background-color: rgb(240, 140, 50);
 }
 .dark-mode .letter-del {
-    color: #333;
+    background-color: rgb(220, 100, 20);
 }
 
 .stats {
