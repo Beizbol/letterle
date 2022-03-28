@@ -21,7 +21,7 @@ router.get('/', (req, res) => {
 
     res.render('home', {
         page: 'home',
-        title: 'test',
+        title: '',
         error: null,
         info: null,
         options: JSON.stringify(req.session.options),
